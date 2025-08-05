@@ -1,12 +1,25 @@
 .matcha {
   background-color: #7a8450;
+  color: #f7efda;
 }
 .vanilla {
   background-color: #f7efda;
+  color: #7a8450;
 }
+.center {
+  margin: auto;
+}
+
 html {
   height: 100vh;
   height: 100dvh;
+}
+
+nav {
+  width: 100%;
+  top: 0px;
+  padding: min(0.5em, 8%);
+  position: fixed;
 }
 
 nav a {
@@ -24,8 +37,10 @@ header {
   padding: min(5em, 8%);
   margin: 0;
 }
+
 h1 {
   font-size: clamp(2rem, calc(7vw + 1rem), 5rem);
+  color: #f7efda;
 }
 p {
   font-size: 1.125rem;
@@ -48,4 +63,15 @@ img {
   height: auto;
   aspect-ratio: 16/9;
   object-fit: cover; /*-or :contain */
+}
+
+/*HTML-CSS blog post Sprint 2,*/
+
+#h1-CSS-P {
+  text-align: center;
+  margin-bottom: 3px;
+}
+#h2-CSS-P {
+  text-align: center;
+  margin: 0;
 }
