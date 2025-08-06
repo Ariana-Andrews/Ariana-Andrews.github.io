@@ -66,6 +66,10 @@ p {
   padding: min(5em, 8%);
 }
 
+main {
+  width: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -82,4 +86,17 @@ img {
 #h2-CSS-P {
   text-align: center;
   margin: 0;
+}
+
+#CSSpost {
+  margin: auto;
+  padding: min(5em, 8%);
+  display: block;
+  width: 80%;
+}
+
+#CSSpost > p,
+h3 {
+  text-align: center;
+  padding: 0.5rem;
 }
