@@ -68,35 +68,88 @@ p {
 
 main {
   width: 100%;
+  overflow: hidden;
+}
+
+#tech {
+  float: left;
+  width: 50%;
+  padding: min(5em, 8%);
+  box-sizing: border-box;
+}
+
+#human {
+  float: right;
+  width: 50%;
+  padding: min(5em, 8%);
+  box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  aspect-ratio: 16/9;
-  object-fit: cover; /*-or :contain */
+  object-fit: contain; /*-or :contain */
+  background-size: contain;
 }
 
-/*HTML-CSS blog post Sprint 2,*/
+/*Blog Posts structure*/
 
-#h1-CSS-P {
+#post-h1 {
   text-align: center;
   margin-bottom: 3px;
 }
-#h2-CSS-P {
+#post-h2 {
   text-align: center;
   margin: 0;
 }
 
-#CSSpost {
+.blog-post {
   margin: auto;
   padding: min(5em, 8%);
   display: block;
   width: 80%;
 }
 
-#CSSpost > p,
-h3 {
+.blog-post > h3 {
   text-align: center;
   padding: 0.5rem;
 }
+
+.blog-post > p {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+/*CSS-HTML Specific*/
+#example-1 {
+  display: flex;
+  padding: 1rem;
+}
+/*.container {
+  margin: 5px;
+  height: 170px;
+  width: 180px;
+  display: ;
+  border: 1px solid #614e40;
+  padding: 10px;
+}
+
+.blue-block,
+.yellow- block,
+.block-3 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.block-1 {
+  background-color: #bbcfcf;
+}
+
+.block-2 {
+  background-color: #ebc294;
+}
+
+.block-3 {
+  background-color: #e8a997;
+}*/
