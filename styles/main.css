@@ -121,11 +121,14 @@ img {
   padding: 0.5rem;
 }
 
+.references {
+  padding: 10px;
+}
 /*CSS-HTML Specific*/
 #example-1 {
-  display: flex;
   padding: 1rem;
 }
+
 /*.container {
   margin: 5px;
   height: 170px;
