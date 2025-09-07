@@ -166,3 +166,25 @@ img {
 .block-3 {
   background-color: #e8a997;
 }*/
+
+/*Problem-Solving Post*/
+
+#ps-ul-style {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+#ps-ul-style > li {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  margin: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  #ps-ul-style {
+    flex-direction: column;
+  }
+}
